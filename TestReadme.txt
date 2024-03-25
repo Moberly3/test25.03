@@ -11,7 +11,7 @@ take by bylo dobre overit allowed_tags, pres p a td lze vlozit script
 
 
 XSRF
-V kodu mame upravenou metodu _DoDelete v souboru "gruyere.py", ktera by mela vyuzivat overeni pomoci CSRF tokenu, tak bychom meli ten token stale menit a tim predejit problemu.
+V kodu udelame upravenou metodu _DoDelete v souboru "gruyere.py", ktera by mela vyuzivat overeni pomoci CSRF tokenu, tak bychom meli ten token stale menit a tim predejit problemu.
 
 Tato funkce musi byt implementovana a pote spustena s kodem, coz by melo slouzit jako mozna ochrana proti utokum typu XSRF, alespon v tomto pripade.
 
